@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!--meta description-->
+        <meta name="description" content="This is a basic form for payment CD" />
+        <meta name="author" content="Ivan Del Pozo Coding Dojo"/>
+        <meta name="keywords" content="html css form" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8"/>
+
+        <title>Basic Form</title>
+        <link href="css/style.css" rel="stylesheet" type="text/css">
+
+    </head>
+    <body>
+        <div class="container">
+            <form>
+                <div class="row">
+                    <h4>Account</h4>
+                    <div class="">
+                        <input type="text" placeholder="Full name" name="nombre" id="FullName" maxlength="100"/>
+                        <div class="input-icon">
+                            <i class="fa fa-user"></i>
+                        </div>
+                    </div>
+
+                    <div class="">
+                        <input type="email" placeholder="Email" name="emailForm" id="emailForm" maxlength="100"/>
+                        <div class="input-icon">
+                            <i class="fa fa-envelope"></i>
+                        </div>
+                    </div>
+                    <div class="">
+                        <input type="password" placeholder="Password" name="passwordForm" id="passwordForm" maxlength="100"/>
+                        <div class="input-icon">
+                            <i class="fa fa-key"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-half">
+                        <h4>Birthday</h4>
+                        <div class="input-group">
+                            <div class="col-third">
+                                <input type="number" placeholder="DD"/>       
+                            </div>
+                            <div class="col-third">
+                                <input type="number" placeholder="MM"/>       
+                            </div>
+                            <div class="col-third">
+                                <input type="number" placeholder="YYYY"/>       
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <h4>Terms and conditions</h4>
+                    <div class="input-group">
+                        <input id="terms" type="checkbox" />
+                        <label for="terms">A terms and conditions agreement outlines the website administrator’s rules regarding user behavior and provides information about the actions the website administrator can and will perform.</label>
+                    </div>
+                </div>
+
+
+
+
+            </form>
+        </div>
+    </body>
+    <footer>
+        
+    </footer>
+</html>
